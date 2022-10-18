@@ -36,6 +36,12 @@
       "device": {
         "avdName": "Pixel_5_API_30"
       }
+    },
+    "genycloud": {
+      "type": "android.genycloud",
+      "device": {
+        "recipeUUID": "95016679-8f8d-4890-b026-e4ad889aadf1"
+      }
     }
   },
   "configurations": {
@@ -53,6 +59,10 @@
     },
     "android.emu.release": {
       "device": "emulator",
+      "app": "android.release"
+    },
+    "android.genycloud.release": {
+      "device": "genycloud",
       "app": "android.release"
     }
   }
